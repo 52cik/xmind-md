@@ -1,0 +1,34 @@
+{
+  "name": "xmind-md",
+  "version": "0.1.0",
+  "description": "Convert XMind files to Markdown.",
+  "main": "dist/index.js",
+  "bin": {
+    "xmind-md": "bin/cli"
+  },
+  "files": [
+    "bin",
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "xmind",
+    "markdown"
+  ],
+  "author": "楼教主 <fe.52cik@gmail.com> (http://www.52cik.com/)",
+  "license": "MIT",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org",
+    "access": "public"
+  },
+  "dependencies": {
+    "jszip": "^3.10.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.0",
+    "typescript": "^5.8.3"
+  }
+}
